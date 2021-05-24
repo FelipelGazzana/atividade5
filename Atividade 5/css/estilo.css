@@ -1,0 +1,76 @@
+/* CSS */
+
+body {
+	
+	background-color:#545864;
+	font-family: 'Oswald', sans-serif;
+	font-size:2em;
+	
+}
+
+section {
+	
+	width:100%;
+	margin:auto;
+	
+}
+
+header {
+	
+	width:100%;
+	height:350px;
+	background:#868485;
+	color:white;
+	
+}
+
+footer {
+	
+	width:100%;
+	height:850px;
+	background:#C54B3C;
+	
+}
+
+.container {
+	width:100%;
+}
+
+.atapo {
+	 
+	color:white;
+	
+}
+
+.formato {
+	
+	height:1%;
+	background:#0000FF;
+	border-radius: 10px;
+	display:block;
+	font-size-adjust:10em;
+	width:100%;
+	padding:2%;
+	margin-bottom:1%
+	
+}
+
+/*Mobile First*/
+/*Resolução máxima de 480px*/
+@media screen and (max-width:480px) {
+	header {height:auto;}
+	aside {display:none;}
+}
+
+/*Resolução máxima de 768px*/
+@media screen and (max-width:768px) {
+	main {width:auto; float:none;}
+	aside {width:auto; float:none;}
+}
+
+/*Resolução máxima de 1279px*/
+@media screen and (max-width:1279px) {
+	section {width:90%;}
+	main {width:65%;}
+	aside {width:30%;}
+}
